@@ -1,0 +1,25 @@
+{
+    "eqn_config": {
+      "eqn_name": "AmericanPutBS",
+      "dim": 1,
+      "total_time": 1.0,
+      "num_time_interval": 50,
+      "s0": 100.0,
+      "strike": 100.0,
+      "sigma": 0.2,
+      "rate": 0.05
+    },
+    "net_config": {
+      "num_iterations": 2000,
+      "batch_size": 64,
+      "valid_size": 256,
+      "logging_frequency": 100,
+      "num_hiddens": [64, 64],
+      "lr_boundaries": [1000],
+      "lr_values": [1e-3, 1e-4],
+      "y_init_range": [0.0, 10.0],
+      "dtype": "float64",
+      "verbose": true
+    }
+  }
+  
