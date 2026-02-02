@@ -163,44 +163,6 @@ All experiments:
 
 ---
 
-## 📖 Paper Status
-
-This repository accompanies a research paper structured as:
-
-1. Introduction
-2. Rough Volatility Model
-3. American Options as Reflected BSDEs
-4. Neural BSDE Method
-5. Numerical Experiments
-6. Interpretation and Discussion
-7. Conclusion
-8. Appendices (Hyperparameters, Runtime, Code Details)
-
----
-
-## 🧠 Intended Audience
-
-* Quantitative finance researchers
-* Machine learning practitioners in finance
-* Graduate students in stochastic analysis
-* Readers interested in neural PDE / BSDE solvers
-
----
-
-## 📜 License
-
-MIT License.
-
----
-
-## ✉️ Contact
-
-For questions, extensions, or collaboration:
-
-* Open an issue
-* Or reach out via GitHub
-
----
 
 ## Acknowledgement
 This work builds upon the Deep BSDE framework introduced by Han, Jentzen, and E (2018).
