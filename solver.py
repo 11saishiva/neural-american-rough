@@ -127,15 +127,20 @@ class NonsharedModel(tf.keras.Model):
 
         # Final drift step (NO new Z, NO noise)
         y = (
-            y
-            - self.bsde.delta_t
-            * self.bsde.f_tf(
-                (self.bsde.num_time_interval - 1) * self.bsde.delta_t,
-                x[:, :, -2],
-                y,
-                z,
+                y
+                - self.bsde.delta_t
+                * self.bsde.f_tf(
+                    t * self.bsde.delta_t,
+                    x[:, :, t],
+                    y,
+                    z,
+                )
+                + z[:, 0:1] * dw[:, t:t+1]
             )
-        )
+
+            # --- AMERICAN EARLY EXERCISE PROJECTION ---
+        payoff = self.bsde.g_tf(t * self.bsde.delta_t, x[:, :, t])
+        y = tf.maximum(y, payoff)
 
         return y
 
