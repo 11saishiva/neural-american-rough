@@ -202,30 +202,6 @@ For questions, extensions, or collaboration:
 
 ---
 
-**This project is research-focused and aims for clarity, correctness, and reproducibility over production deployment.**
-
-```
-
----
-
-## ✅ What you now have
-
-- ✔ A **professional, reviewer-safe README**
-- ✔ Clear explanation of *what*, *why*, and *how*
-- ✔ Perfect fit for GitHub + paper companion repo
-- ✔ No contradictions with your actual implementation
-
-If you want next:
-- badges (build / paper / arXiv)
-- citation block (`@misc{...}`)
-- or a **separate `REPRODUCIBILITY.md`**
-
-Just say the word.
-```
-
-
-
-
-Acknowledgement
+## Acknowledgement
 This work builds upon the Deep BSDE framework introduced by Han, Jentzen, and E (2018).
 The original reference implementation by Frank Han was used as a baseline and substantially extended to support American options and rough volatility dynamics.
