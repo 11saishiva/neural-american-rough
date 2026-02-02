@@ -1,4 +1,4 @@
-# Neural BSDE Pricing of American Options under Rough Volatility
+# VolterraEx - Neural BSDE Pricing of American Options under Rough Volatility
 
 This repository implements a **Neural Backward Stochastic Differential Equation (BSDE)** framework for pricing **American-style options under rough volatility**. The project combines modern deep learning techniques with stochastic analysis to solve high-dimensional optimal stopping problems that are analytically intractable using classical methods.
 
