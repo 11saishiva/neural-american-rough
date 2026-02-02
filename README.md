@@ -6,7 +6,7 @@ The core contribution is a **neural reflected BSDE solver** capable of handling 
 
 ---
 
-## 📌 Motivation
+## Motivation
 
 American options allow early exercise, which leads to an optimal stopping problem. When volatility follows a **rough (fractional) process**, the problem becomes:
 
@@ -25,7 +25,7 @@ This project demonstrates that **neural BSDEs can price American options under r
 
 ---
 
-## 🧠 Method Overview
+## Method Overview
 
 ### Rough Volatility Model
 - Volatility driven by fractional Brownian motion with Hurst parameter \( H < 0.5 \)
@@ -44,7 +44,7 @@ This project demonstrates that **neural BSDEs can price American options under r
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 
@@ -80,7 +80,7 @@ neural-american-rough/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Create a virtual environment and install dependencies:
 
@@ -92,7 +92,7 @@ pip install numpy tensorflow matplotlib absl-py
 
 ---
 
-## 🚀 Running the Model
+## Running the Model
 
 Train the neural BSDE solver:
 
@@ -104,7 +104,7 @@ Configuration is controlled via JSON files in `configs/`.
 
 ---
 
-## 📊 Numerical Results
+## Numerical Results
 
 ### Dependence on Volatility Roughness
 
@@ -132,7 +132,7 @@ analysis/figures/
 
 ---
 
-## 🧪 Benchmarks
+## Benchmarks
 
 A binomial tree implementation is provided for the classical Black–Scholes case:
 
@@ -144,7 +144,7 @@ Used for sanity checks and validation in the Markovian limit.
 
 ---
 
-## 🔬 Key Findings
+## Key Findings
 
 * Neural BSDEs can handle **rough, non-Markovian volatility**
 * American option values are sensitive to volatility roughness
@@ -153,7 +153,7 @@ Used for sanity checks and validation in the Markovian limit.
 
 ---
 
-## 🧾 Reproducibility
+## Reproducibility
 
 All experiments:
 
