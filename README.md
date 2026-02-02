@@ -1,15 +1,3 @@
-Perfect — below is a **clean, end-to-end, GitHub-ready `README.md`**, written to be:
-
-* understandable to **new readers**
-* technically solid for **ML / quant / research reviewers**
-* aligned with **what you actually implemented**
-* safe to paste **directly as-is** into `README.md`
-
-No fluff, no marketing BS.
-
----
-
-```md
 # Neural BSDE Pricing of American Options under Rough Volatility
 
 This repository implements a **Neural Backward Stochastic Differential Equation (BSDE)** framework for pricing **American-style options under rough volatility**. The project combines modern deep learning techniques with stochastic analysis to solve high-dimensional optimal stopping problems that are analytically intractable using classical methods.
